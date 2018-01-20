@@ -11,6 +11,7 @@ package codigo;
  */
 public class Carlos {
     public void run(){
+        //Este es el run.
         roundSum(16, 17, 18);
         roundSum(12, 13, 14);
         roundSum(6, 4, 4);
@@ -23,7 +24,10 @@ public class Carlos {
     
     
     
-    
+    /*
+    El ejercicio consiste en que cada numero hay que redondearlo, si es cinco o más, a la siguiente decena
+    y si es menos de cinco a la anterior.
+    */
    public int roundSum(int a, int b, int c) {
   return round10(a) + round10(b) + round10(c);
 }
